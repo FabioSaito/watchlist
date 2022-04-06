@@ -71,8 +71,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "rspec-sidekiq", "~> 3.1.0"
 end
 
 gem "httparty", "~> 0.20.0"
 gem "nokogiri", "~> 1.13.3"
 gem "byebug"
+
+gem "sidekiq", "~> 6.0"
