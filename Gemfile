@@ -79,3 +79,4 @@ gem "nokogiri", "~> 1.13.3"
 gem "byebug"
 
 gem "sidekiq", "~> 6.0"
+gem "rufus-scheduler", "~> 3.8"
