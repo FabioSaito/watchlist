@@ -72,10 +72,13 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
   gem "rspec-sidekiq", "~> 3.1.0"
+  gem "vcr", "~> 6.1"
+  gem "webmock", "~> 3.14"
 end
 
 gem "httparty", "~> 0.20.0"
 gem "nokogiri", "~> 1.13.3"
+
 gem "byebug"
 
 gem "sidekiq", "~> 6.0"
