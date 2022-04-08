@@ -1,7 +1,7 @@
 <div id="alerts" class="alerts">
   <% if @alerts.present? %>
     <% @alerts.each do |alert| %>
-      <p class="box"><%= alert.message %></p>
+      <p class="box"><%= alert %></p>
     <% end %>
   <% else %>
     <p>You have no alerts</p>
