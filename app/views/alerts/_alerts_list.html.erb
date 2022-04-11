@@ -1,0 +1,7 @@
+<% if alerts_list.present? %>
+  <% alerts_list.each do |item| %>
+    <p class="box"><%= item[:message] %></p>
+  <% end %>
+<% else %>
+  <p>You have no alerts of this type! </p>
+<% end %>
