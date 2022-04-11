@@ -57,6 +57,7 @@ gem "money", "~> 6.16"
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "rspec-rails", "~> 5.0.0"
 end
 
 group :development do
@@ -70,4 +71,14 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "rspec-sidekiq", "~> 3.1.0"
+  gem "vcr", "~> 6.1"
+  gem "webmock", "~> 3.14"
 end
+
+gem "httparty", "~> 0.20.0"
+gem "nokogiri", "~> 1.13.3"
+
+gem "byebug"
+
+gem "sidekiq", "~> 6.0"
