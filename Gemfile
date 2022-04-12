@@ -83,3 +83,4 @@ gem "byebug"
 
 gem "sidekiq", "~> 6.0"
 gem "rufus-scheduler", "~> 3.8"
+gem "sidekiq-unique-jobs", "~> 7.1", ">= 7.1.19"
