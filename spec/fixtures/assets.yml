@@ -1,0 +1,43 @@
+asset_1:
+  symbol: 'AAAA1'
+  currency: 'BRL'
+
+asset_2:
+  symbol: 'BBBB2'
+  currency: 'BRL'
+
+asset_3:
+  symbol: 'CCCC3'
+  currency: 'BRL'
+
+asset_4:
+  symbol: 'DDDD4'
+  currency: 'BRL'
+
+asset_5:
+  symbol: 'EEEE5'
+  currency: 'BRL'
+
+asset_6:
+  symbol: 'FFFF6'
+  currency: 'BRL'
+
+asset_7:
+  symbol: 'GGGG7'
+  currency: 'BRL'
+
+asset_8:
+  symbol: 'HHHH8'
+  currency: 'BRL'
+
+asset_9:
+  symbol: 'IIII9'
+  currency: 'BRL'
+
+asset_10:
+  symbol: 'JJJJ0'
+  currency: 'USD'
+
+asset_11:
+  symbol: 'KKKK1'
+  currency: 'USD'
