@@ -1,0 +1,11 @@
+user_one:
+  email: 'first@user.com'
+  encrypted_password: '111111'
+
+user_two:
+  email: 'second@user.com'
+  encrypted_password: '222222'
+
+user_three:
+  email: 'third@user.com'
+  encrypted_password: '333333'

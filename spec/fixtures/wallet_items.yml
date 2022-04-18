@@ -1,0 +1,15 @@
+wallet_item_1:
+  wallet: wallet_one
+  asset: asset_1
+
+wallet_item_9:
+  wallet: wallet_one
+  asset: asset_9
+
+wallet_item_4:
+  wallet: wallet_two
+  asset: asset_4
+
+wallet_item_6:
+  wallet: wallet_three
+  asset: asset_6

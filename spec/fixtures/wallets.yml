@@ -1,0 +1,8 @@
+wallet_one:
+  user: user_one
+
+wallet_two:
+  user: user_two
+
+wallet_three:
+  user: user_three
