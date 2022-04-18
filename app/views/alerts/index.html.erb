@@ -1,9 +1,6 @@
 <div id="alerts" class="alerts">
-  <% if @alerts.present? %>
-    <% @alerts.each do |alert| %>
-      <p class="box"><%= alert.message %></p>
-    <% end %>
-  <% else %>
-    <p>You have no alerts</p>
-  <% end %>
+  <h2> Watchlist Alerts </h2>
+  <%= render partial: "alerts_list", object: @alerts %>
+  <h2> Errors Alerts </h2>
+  <%= render partial: "alerts_list", object: @alerts_errors %>
 </div>
